@@ -1,0 +1,5 @@
+sudo: required
+services:
+  - docker
+after_success:
+  - bin/docker_push.sh
